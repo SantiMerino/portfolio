@@ -30,12 +30,18 @@ export default function Header() {
             >
               _skills
             </li>
-            <li className="px-4 py-2 hover:text-white hover:text-base transition-all duration-200 ease-in-out">
+            <li
+              className="px-4 py-2 hover:text-white hover:text-base transition-all duration-200 ease-in-out"
+              onClick={() => scrollToSection("projects")}
+            >
               _projects
             </li>
-            <li className="px-4 py-2 hover:text-white  hover:text-base transition-all duration-200 ease-in-out">
+            {/* <li
+              className="px-4 py-2 hover:text-white  hover:text-base transition-all duration-200 ease-in-out"
+              onClick={() => scrollToSection("contact")}
+            >
               _contact
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

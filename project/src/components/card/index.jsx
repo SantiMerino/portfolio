@@ -3,6 +3,35 @@ import { SiGithub, SiGmail, SiInstagram } from "react-icons/si";
 export default function Card() {
   const iconClass =
     "h-8 w-8 hover:text-white duration-300 ease-in-out hover:h-10 hover:w-10";
+
+  const email = "santimerinoh12@gmail.com";
+
+  const handleCopyClick = () => {
+    // Create a temporary textarea element to copy the text
+    const textarea = document.createElement("textarea");
+    textarea.value = email;
+    document.body.appendChild(textarea);
+
+    // Select the text inside the textarea
+    textarea.select();
+
+    try {
+      // Copy the selected text to the clipboard
+      document.execCommand("copy");
+      alert("Email me!");
+    } catch (error) {
+      console.error("Error copying text:", error);
+    }
+
+    // Remove the temporary textarea from the DOM
+    document.body.removeChild(textarea);
+  };
+
+  const handleRedirectClick = (email) => {
+    const externalURL = email; // Replace with your desired external URL
+    window.location.href = externalURL;
+  };
+
   return (
     <>
       <section
@@ -16,9 +45,19 @@ export default function Card() {
                 _me
               </h1>
               <div className="bg-white bg-opacity-5 rounded-lg p-4 flex gap-4 self-end">
-                <SiGithub className={iconClass} />
-                <SiInstagram className={iconClass} />
-                <SiGmail className={iconClass} />
+                <SiGithub
+                  className={iconClass}
+                  onClick={() =>
+                    handleRedirectClick("https://github.com/SantiMerino")
+                  }
+                />
+                <SiInstagram
+                  className={iconClass}
+                  onClick={() =>
+                    handleRedirectClick("https://www.instagram.com/_santimh/")
+                  }
+                />
+                <SiGmail className={iconClass} onClick={handleCopyClick} />
               </div>
             </div>
             <h1 className="text-white italic p-2">
