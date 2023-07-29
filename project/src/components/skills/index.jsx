@@ -41,20 +41,20 @@ export default function Skill() {
           {/* Frontend */}
           {/* <h1 className="text-xl font-rubik col-span-6">_frontend</h1> */}
           <div className="pb-4 grid grid-cols-2 grid-flow-row max-sm:grid-flow-row max-sm:grid-cols-3 sm:grid-rows-2 sm:grid-cols-5 gap-10 lg:grid-cols-7 lg:grid-flow-row lg:gap-4 items-center justify-items-center  justify-center">
-            <SiJavascript className={iconsClass} />
-            <SiTailwindcss className={iconsClass} />
-            <SiHtml5 className={iconsClass} />
-            <SiCss3 className={iconsClass} />
-            <SiReact className={iconsClass} />
-            <SiPhp className={iconsClass} />
-            <img src={CSharp} className={iconsClass} />
-            <LiaJava className={iconsClass} />
-            <SiMysql className={iconsClass} />
-            <SiPostgresql className={iconsClass} />
-            <SiPrisma className={iconsClass} />
-            <SiNodedotjs className={iconsClass} />
-            <SiFigma className={iconsClass} />
-            <SiVite className={iconsClass} />
+            <SiJavascript className={`hover:text-yellow-500 ${iconsClass}`} />
+            <SiTailwindcss className={`hover:text-cyan-500 ${iconsClass}`} />
+            <SiHtml5 className={`hover:text-red-500 ${iconsClass}`} />
+            <SiCss3 className={`hover:text-blue-500 ${iconsClass}`} />
+            <SiReact className={`hover:text-cyan-500 ${iconsClass}`} />
+            <SiPhp className={`hover:text-purple-500 ${iconsClass}`} />
+            <img src={CSharp} className={`${iconsClass}`} alt="" />
+            <LiaJava className={`hover:fill-sky-500 ${iconsClass}`} />
+            <SiMysql className={`hover:text-orange-500  ${iconsClass}`} />
+            <SiPostgresql className={`hover:text-cyan-500 ${iconsClass}`} />
+            <SiPrisma className={`hover:text-white ${iconsClass}`} />
+            <SiNodedotjs className={`hover:text-green-600 ${iconsClass}`} />
+            <SiFigma className={`hover:text-red-400 ${iconsClass}`} />
+            <SiVite className={`hover:text-yellow-300 ${iconsClass}`} />
           </div>
           {/* Backend */}
           {/* <div className="grid grid-cols-2 gap-3">

@@ -72,7 +72,11 @@ export default function Card() {
             Enthusiastic in the design, UX/UI, and frontend development, aiming
             for a specialty in any of those areas
           </div>
-          <img src={Me} alt="" className="text-white sm:h-[500px]" />
+          <img
+            src={Me}
+            alt=""
+            className="text-white sm:h-[500px] hover:scale-105 duration-500 hover:rotate-2"
+          />
         </div>
       </section>
     </>

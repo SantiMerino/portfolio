@@ -31,7 +31,7 @@ export default function Footer() {
   };
   return (
     <>
-      <footer className="bg-white bg-opacity-5 m-4 rounded-lg p-4 text-white font-poppins flex flex-col justify-center items-center gap-8">
+      <footer className=" m-4 rounded-lg p-4 text-white font-poppins flex flex-col justify-center items-center gap-8">
         {/* Tag */}
         <div>
           <ul className="text-base flex flex-row justify-center gap-4">
