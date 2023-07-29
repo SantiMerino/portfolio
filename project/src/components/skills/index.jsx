@@ -18,17 +18,17 @@ import CSharp from "../../assets/Csharp.svg";
 
 export default function Skill() {
   const iconsClass =
-    "justify-center h-16 w-16 lg:h-24 lg:w-24 hover:scale-110 duration-200 ease-in-out";
+    "text-slate-300 justify-center h-16 w-16 lg:h-24 lg:w-24 hover:scale-110 duration-200 ease-in-out";
 
   return (
     <>
       <section className="font-poppins hover:bg-white hover:bg-opacity-5 duration-200 ease-in-out mx-4 p-4 text-center rounded-lg text-white flex justify-center flex-col">
-        <h1 className="text-4xl font-bold font-rubik">Skills [ ]</h1>
-        <p className="text-justify w-[1000px] self-center lg:text-xl px-10 py-8 ">
-          The main area of interest and development in the projects is the
-          Front-End, built small and medium web applications projects with
-          React, TailwindCSS, and Node, have a bit of experience being
-          full-stack within most projects, and am familiar with many javascript
+        <h1 className="text-4xl font-poppins ">s_kills</h1>
+        <p className="text-justify text-slate-300 lg:max-w-[1000px] self-center lg:text-xl px-10 py-8 ">
+          The main area of interest and development in my projects and studies
+          is the Front-End, built small and medium web applications projects
+          with React, TailwindCSS, and Node, have a bit of experience being
+          full-stack within most projects, and worked with many javascript
           libraries and frameworks{" "}
         </p>
 

@@ -1,6 +1,7 @@
 import { FiGithub, FiMail, FiLinkedin, FiInstagram } from "react-icons/fi";
 import Coffee from "../../assets/coffee.svg";
 import Heart from "../../assets/heart.svg";
+import { SiGithub, SiGmail, SiInstagram, SiLinkedin } from "react-icons/si";
 export default function Footer() {
   return (
     <>
@@ -9,16 +10,13 @@ export default function Footer() {
         <div>
           <ul className="text-base flex flex-row justify-center gap-4">
             <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
-              <FiMail className="w-8 h-8" />
+              <SiGmail className="w-8 h-8" />
             </li>
             <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
-              <FiGithub className="w-8 h-8" />
+              <SiGithub className="w-8 h-8" />
             </li>
             <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
-              <FiInstagram className="w-8 h-8" />
-            </li>
-            <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
-              <FiLinkedin className="w-8 h-8" />
+              <SiInstagram className="w-8 h-8" />
             </li>
           </ul>
         </div>

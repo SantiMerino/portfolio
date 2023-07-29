@@ -5,6 +5,8 @@ import viteLogo from "/vite.svg";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Skill from "./components/skills";
+import Projects from "./components/projects";
+import Card from "./components/card";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,8 +14,12 @@ function App() {
   return (
     <>
       <Header />
-      <Skill />
-      <Footer />
+      <main>
+        <Card />
+        <Skill />
+        <Projects />
+        <Footer />
+      </main>
     </>
   );
 }
