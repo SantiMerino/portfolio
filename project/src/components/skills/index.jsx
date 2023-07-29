@@ -38,7 +38,7 @@ export default function Skill() {
         <div className="flex flex-col gap-10 justify-center">
           {/* Frontend */}
           {/* <h1 className="text-xl font-rubik col-span-6">_frontend</h1> */}
-          <div className="pb-4 grid grid-flow-col grid-rows-4 max-sm:grid-flow-row max-sm:grid-cols-2 sm:grid-rows-2 gap-10 justify-center">
+          <div className="pb-4 grid grid-cols-2 grid-flow-row max-sm:grid-flow-row max-sm:grid-cols-3 sm:grid-rows-2 sm:grid-cols-5 gap-10 lg:grid-cols-7 lg:grid-flow-row lg:gap-4 items-center justify-items-center  justify-center">
             <SiJavascript className={iconsClass} />
             <SiTailwindcss className={iconsClass} />
             <SiHtml5 className={iconsClass} />

@@ -17,7 +17,10 @@ export default function Projects() {
       <h1 className="text-white text-4xl text-center mt-10 mb-6 p-4 font-poppins">
         _projects
       </h1>
-      <section id="projects" className=" mx-4 flex gap-4 justify-center">
+      <section
+        id="projects"
+        className=" mx-4 flex md:flex-row flex-col items-center  gap-4 justify-center"
+      >
         <Folder
           title="Gnosis"
           color="text-green-500"
