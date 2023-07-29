@@ -4,11 +4,17 @@ import {
   SiJavascript,
   SiMysql,
   SiNodedotjs,
+  SiPhp,
   SiPostgresql,
+  SiReact,
+  SiTailwindcss,
 } from "react-icons/si";
 import Net from "../../assets/net.svg";
 import CSharp from "../../assets/Csharp.svg";
 import { LiaJava } from "react-icons/lia";
+import Gnosis from "../../assets/gnosis.png";
+import Locus from "../../assets/locus.png";
+import Mambos from "../../assets/mambos.png";
 // import Folder from "../../assets/folderoutline.svg";
 export default function Projects() {
   return (
@@ -19,7 +25,7 @@ export default function Projects() {
       </h1>
       <section
         id="projects"
-        className=" mx-4 flex md:flex-row flex-col items-center  gap-4 justify-center"
+        className=" mx-4 flex lg:flex-row flex-col items-center  gap-4 justify-center"
       >
         <Folder
           title="Gnosis"
@@ -33,6 +39,23 @@ export default function Projects() {
               <SiMysql className="h-12 w-12" />
             </div>
           }
+          img={Gnosis}
+        />
+        <Folder
+          title="Mambo's"
+          color="text-orange-700"
+          github="https://github.com/SantiMerino/BS-Stratega-IT"
+          content="Web e-commerce for a library & coffee shop located in El Salvador(fictional) managing the public and administrative site"
+          stack={
+            <div className="flex gap-4">
+              <SiJavascript className="h-10 w-10" />
+              <SiPhp className="h-10 w-10" />
+              <SiPostgresql className="h-10 w-10" />
+              <SiTailwindcss className="h-10 w-10" />
+            </div>
+          }
+          img={Mambos}
+          state="in progess"
         />
         <Folder
           title="Locus"
@@ -46,6 +69,7 @@ export default function Projects() {
               <SiMysql className="h-10 w-10" />
             </div>
           }
+          img={Locus}
           state="finished"
         />
         <Folder
@@ -58,6 +82,8 @@ export default function Projects() {
               <SiJavascript className="h-10 w-10" />
               <SiNodedotjs className="h-10 w-10" />
               <SiPostgresql className="h-10 w-10" />
+              <SiTailwindcss className="h-10 w-10" />
+              <SiReact className="h-10 w-10" />
             </div>
           }
           state="in progess"
