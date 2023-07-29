@@ -22,8 +22,11 @@ export default function Skill() {
 
   return (
     <>
-      <section className="font-poppins hover:bg-white hover:bg-opacity-5 duration-200 ease-in-out mx-4 p-4 text-center rounded-lg text-white flex justify-center flex-col">
-        <h1 className="text-4xl font-poppins ">s_kills</h1>
+      <section
+        id="skills"
+        className="font-poppins duration-200 ease-in-out mx-4 p-4 text-center rounded-lg text-white flex justify-center flex-col"
+      >
+        <h1 className="text-4xl font-poppins ">_skills</h1>
         <p className="text-justify text-slate-300 lg:max-w-[1000px] self-center lg:text-xl px-10 py-8 ">
           The main area of interest and development in my projects and studies
           is the Front-End, built small and medium web applications projects

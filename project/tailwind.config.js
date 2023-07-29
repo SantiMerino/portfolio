@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -29,6 +28,10 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
+      },
+
+      backgroundImage: {
+        folder: "url('../../assets/folder-outline.svg')",
       },
     },
   },
