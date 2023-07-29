@@ -1,8 +1,7 @@
 import Me from "../../assets/me2.png";
 import { SiGithub, SiGmail, SiInstagram } from "react-icons/si";
 export default function Card() {
-  const iconClass =
-    "h-8 w-8 hover:text-white duration-300 ease-in-out hover:h-10 hover:w-10";
+  const iconClass = "h-8 w-8 duration-300 ease-in-out hover:h-10 hover:w-10";
 
   const email = "santimerinoh12@gmail.com";
 
@@ -46,7 +45,7 @@ export default function Card() {
               </h1>
               <div className="bg-white bg-opacity-5 rounded-lg p-4 flex gap-4 self-center lg:self-end">
                 <SiGithub
-                  className={`hover:text-purple-500 ${iconClass}`}
+                  className="hover:text-purple-500 h-8 w-8 duration-300 ease-in-out hover:h-10 hover:w-10"
                   onClick={() =>
                     handleRedirectClick("https://github.com/SantiMerino")
                   }
