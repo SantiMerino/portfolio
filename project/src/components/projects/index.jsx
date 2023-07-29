@@ -15,6 +15,7 @@ import { LiaJava } from "react-icons/lia";
 import Gnosis from "../../assets/gnosis.png";
 import Locus from "../../assets/locus.png";
 import Mambos from "../../assets/mambos.png";
+import BSS from "../../assets/BSS.png";
 // import Folder from "../../assets/folderoutline.svg";
 export default function Projects() {
   return (
@@ -75,8 +76,8 @@ export default function Projects() {
         <Folder
           title="BSS"
           color="text-blue-700"
-          github="https://github.com/SantiMerino/BS-Stratega-IT"
-          content={`Web application for client relation, ticket and invoice management for Stratega-IT, handling notifications & reminders `}
+          github="https://stratega-it.com/"
+          content={`Web application for client relation, ticket and invoice management for Stratega-IT, handling notifications & reminders, being a real company I am not allowed to share much about it more than who they are and what they do`}
           stack={
             <div className="flex gap-4">
               <SiJavascript className="h-10 w-10" />
@@ -86,6 +87,7 @@ export default function Projects() {
               <SiReact className="h-10 w-10" />
             </div>
           }
+          img={BSS}
           state="in progess"
         />
       </section>

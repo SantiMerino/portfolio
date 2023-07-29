@@ -35,10 +35,10 @@ export default function Footer() {
         {/* Tag */}
         <div>
           <ul className="text-base flex flex-row justify-center gap-4">
-            <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
-              <SiGmail className="w-8 h-8" onClick={handleCopyClick} />
+            <li className="hover:text-red-500 duration-300 text-slate-300 hover:text-xl">
+              <SiGmail className=" w-8 h-8" onClick={handleCopyClick} />
             </li>
-            <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
+            <li className="hover:text-purple-500 text-slate-300 duration-300 hover:text-xl">
               <SiGithub
                 className="w-8 h-8"
                 onClick={() =>
@@ -46,7 +46,7 @@ export default function Footer() {
                 }
               />
             </li>
-            <li className="hover:text-white text-slate-300 duration-300 hover:text-xl">
+            <li className="hover:text-pink-500 text-slate-300 duration-300 hover:text-xl">
               <SiInstagram
                 className="w-8 h-8"
                 onClick={() =>
@@ -58,10 +58,10 @@ export default function Footer() {
         </div>
         <div className="flex flex-row justify-center items-center text-xl gap-1 text-slate-300 hover:text-white duration-300 ">
           Made with {"  "}
-          <CiCoffeeCup className="h-8 w-8" /> & <CiHeart className="h-8 w-8" />{" "}
-          in 2023
+          <CiCoffeeCup className="h-8 w-8 hover:text-orange-500 duration-300" />{" "}
+          & <CiHeart className="h-8 w-8 hover:text-red-500 duration-300" /> in
+          2023
         </div>
-        <h1 className="italic">_smh</h1>
       </footer>
     </>
   );

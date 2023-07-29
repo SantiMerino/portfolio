@@ -44,20 +44,23 @@ export default function Card() {
               <h1 className="text-4xl text-white duration-200 ease-in-out w-fit self-center">
                 _me
               </h1>
-              <div className="bg-white bg-opacity-5 rounded-lg p-4 flex gap-4 self-end">
+              <div className="bg-white bg-opacity-5 rounded-lg p-4 flex gap-4 self-center lg:self-end">
                 <SiGithub
-                  className={iconClass}
+                  className={`hover:text-purple-500 ${iconClass}`}
                   onClick={() =>
                     handleRedirectClick("https://github.com/SantiMerino")
                   }
                 />
                 <SiInstagram
-                  className={iconClass}
+                  className={`hover:text-pink-500 ${iconClass}`}
                   onClick={() =>
                     handleRedirectClick("https://www.instagram.com/_santimh/")
                   }
                 />
-                <SiGmail className={iconClass} onClick={handleCopyClick} />
+                <SiGmail
+                  className={`hover:text-red-500 ${iconClass}`}
+                  onClick={handleCopyClick}
+                />
               </div>
             </div>
             <h1 className="text-white italic p-2">
