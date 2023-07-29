@@ -45,7 +45,7 @@ export default function Card() {
               </h1>
               <div className="bg-white bg-opacity-5 rounded-lg p-4 flex gap-4 self-center lg:self-end">
                 <SiGithub
-                  className="hover:text-purple-500 h-8 w-8 duration-300 ease-in-out hover:h-10 hover:w-10"
+                  className={`hover:text-purple-500 ${iconClass}`}
                   onClick={() =>
                     handleRedirectClick("https://github.com/SantiMerino")
                   }
