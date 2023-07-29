@@ -26,7 +26,9 @@ export default function Skill() {
         id="skills"
         className="font-poppins duration-200 ease-in-out mx-4 p-4 text-center rounded-lg text-white flex justify-center flex-col"
       >
-        <h1 className="text-4xl font-poppins ">_skills</h1>
+        <h1 className="text-4xl font-poppins hover:font-bold hover:text-cyan-500 hover:text-5xl duration-500 hover:border-cyan-500">
+          _skills
+        </h1>
         <p className="text-justify text-slate-300 lg:max-w-[1000px] self-center lg:text-xl px-10 py-8 ">
           The main area of interest and development in my projects and studies
           is the Front-End, built small and medium web applications projects

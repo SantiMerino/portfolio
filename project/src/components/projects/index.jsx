@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <>
       {/* Container */}
-      <h1 className="text-white text-4xl text-center mt-10 mb-6 p-4 font-poppins">
+      <h1 className="text-white text-4xl text-center mt-10 mb-6 p-4 font-poppins hover:font-bold hover:text-cyan-500 hover:text-5xl duration-500 hover:border-cyan-500">
         _projects
       </h1>
       <section
