@@ -21,12 +21,12 @@ export default function Projects() {
   return (
     <>
       {/* Container */}
-      <h1 className="text-white text-4xl text-center mt-10 mb-6 p-4 font-poppins hover:font-bold hover:text-cyan-500 hover:text-5xl duration-500 hover:border-cyan-500">
+      <h1 className="text-white text-4xl text-center mt-10 mb-6 p-4 font-poppins hover:font-bold hover:text-red-500 hover:text-5xl duration-500 hover:border-cyan-500">
         _projects
       </h1>
       <section
         id="projects"
-        className=" mx-4 flex lg:flex-row flex-col items-center  gap-4 justify-center"
+        className=" mx-4 flex lg:grid lg:grid-cols-2 mt-10 flex-col items-center  gap-4 justify-center"
       >
         <Folder
           title="Gnosis"
