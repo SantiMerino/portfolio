@@ -3,7 +3,7 @@ export default function Folder(props) {
   const { title, content, github, stack, color, state, img } = props;
   return (
     <>
-      <div className="bg-white font-poppins bg-opacity-5 rounded-lg flex flex-col text-slate-300 p-4 duration-300 ease-in-out min-w-[300px] lg:min-h-[420px] lg:min-w-[400px]flex-shrink">
+      <div className="bg-white font-poppins bg-opacity-5 rounded-lg flex flex-col text-slate-300 p-4 duration-300 ease-in-out min-w-[300px] lg:min-h-[420px] lg:min-w-[400px] flex-shrink">
         <a href={github} className="group">
           <div className="flex flex-row items-center gap-6 px-2">
             <CiFolderOn className={`h-14 w-14 ${color}`} />

@@ -46,7 +46,7 @@ export default function Projects() {
           title="Mambo's"
           color="text-orange-700"
           github="https://github.com/SantiMerino/BS-Stratega-IT"
-          content="Web e-commerce for a library & coffee shop located in El Salvador(fictional) managing the public and administrative site"
+          content="Web E-commerce for a library & coffee shop located in El Salvador(fictional) managing the public and administrative site"
           stack={
             <div className="flex gap-4">
               <SiJavascript className="h-10 w-10" />
