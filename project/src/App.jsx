@@ -1,12 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 // import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Skill from "./components/skills";
 import Projects from "./components/projects";
 import Card from "./components/card";
+// import CV from "./components/cv";
 
 function App() {
   const [count, setCount] = useState(0);

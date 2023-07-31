@@ -40,7 +40,7 @@ export default function Header() {
               _projects
             </li>
             <a
-              className="px-4 py-2 hover:text-white  hover:text-base transition-all duration-200 ease-in-out"
+              className="px-4 py-2  hover:text-red-500  hover:text-base transition-all duration-200 ease-in-out"
               href={pdfUrl}
             >
               _cv

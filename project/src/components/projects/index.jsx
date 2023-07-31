@@ -33,7 +33,7 @@ export default function Projects() {
           color="text-green-500"
           github="https://github.com/SantiMerino/Gnosis/tree/main"
           state="finished"
-          content="Student management system, work platform, time manager and schedule manager for students aimed at students and institutions"
+          content="Student management system, work platform, time manager and schedule manager aimed for students, Pomodoro technique and study sessions manager, built-in text editor, task manager and personal repository for each student"
           stack={
             <div className="flex gap-4">
               <LiaJava className="h-12 w-12" />
@@ -46,7 +46,7 @@ export default function Projects() {
           title="Mambo's"
           color="text-orange-700"
           github="https://github.com/SantiMerino/BS-Stratega-IT"
-          content="Web E-commerce for a library & coffee shop located in El Salvador(fictional) managing the public and administrative site"
+          content="Web E-commerce for a library & coffee shop located in El Salvador(fictional) managing the public and administrative site, reports, stadistics, shopping cart, invoice & dashboard"
           stack={
             <div className="flex gap-4">
               <SiJavascript className="h-10 w-10" />
@@ -62,7 +62,7 @@ export default function Projects() {
           title="Locus"
           color="text-violet-700"
           github="https://github.com/jromerooo2/ProyectoExpoWforms/tree/dev"
-          content="Locus is a real time location platform, designed to provide security to public transportation in El Salvador. My team won 3rd place in a hackathon"
+          content="Locus is a real time location platform, designed to provide security to public transportation in El Salvador, Providing real-time location of public transport at all times, and its entry or exit from the facilities. My team won 3rd place in a hackathon"
           stack={
             <div className="flex gap-4">
               <img src={CSharp} className="h-10 w-10" />
@@ -77,7 +77,10 @@ export default function Projects() {
           title="BSS"
           color="text-blue-700"
           github="https://stratega-it.com/"
-          content={`Web application for client relation, ticket and invoice management for Stratega-IT, handling notifications & reminders, being a real company I am not allowed to share much about it more than who they are and what they do`}
+          content={`Web application for client relations, ticket, and invoice
+          management for Stratega-IT, handling notifications &
+          reminders, for confidentiality, I am not allowed to share more
+          information.`}
           stack={
             <div className="flex gap-4">
               <SiJavascript className="h-10 w-10" />
