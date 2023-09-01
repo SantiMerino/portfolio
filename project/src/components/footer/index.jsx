@@ -1,6 +1,13 @@
 import { CiCoffeeCup, CiHeart } from "react-icons/ci";
 import { FiGithub, FiMail, FiLinkedin, FiInstagram } from "react-icons/fi";
-import { SiGithub, SiGmail, SiInstagram, SiLinkedin } from "react-icons/si";
+import {
+  SiGithub,
+  SiGmail,
+  SiInstagram,
+  SiLinkedin,
+  SiReact,
+  SiTailwindcss,
+} from "react-icons/si";
 export default function Footer() {
   const email = "santimerinoh12@gmail.com";
 
@@ -58,9 +65,10 @@ export default function Footer() {
         </div>
         <div className="flex flex-row justify-center items-center text-xl gap-1 text-slate-300 hover:text-white duration-300 ">
           Made with {"  "}
-          <CiCoffeeCup className="h-8 w-8 hover:text-orange-500 duration-300" />{" "}
-          & <CiHeart className="h-8 w-8 hover:text-red-500 duration-300" /> in
-          2023
+          <SiReact className="h-8 w-8 hover:text-orange-500 duration-300 mx-2" />{" "}
+          &{" "}
+          <SiTailwindcss className="h-8 w-8 hover:text-red-500 duration-300 mx-2" />{" "}
+          in 2023
         </div>
       </footer>
     </>
