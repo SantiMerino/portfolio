@@ -37,8 +37,8 @@ export default function Card() {
         id="me"
         className="font-rubik text-white font-bold flex flex-col m-4 rounded-lg duration-200 ease-in-out"
       >
-        <div className="flex md:flex-row flex-col-reverse gap-4 lg:gap-10 lg:px-24 px-8 py-8 items-center">
-          <div className="w-2/3 font-normal font-poppins text-slate-300 lg:text-xl lg:max-w-[1000px] text-justify flex flex-col">
+        <div className="flex md:flex-row flex-col-reverse gap-4 lg:gap-10 lg:px-24 px-10 py-8 items-center">
+          <div className="sm:w-2/3  w-full font-normal font-poppins text-slate-300 lg:text-xl lg:max-w-[1000px] text-justify flex flex-col">
             <div className="flex md:flex-row flex-col md:gap-0 gap-4 self-start justify-between w-full my-6">
               <h1 className="text-4xl text-white duration-300 ease-in-out w-fit self-center hover:font-bold hover:text-red-500 hover:text-5xl">
                 _me

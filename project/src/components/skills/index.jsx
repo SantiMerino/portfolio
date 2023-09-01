@@ -41,7 +41,7 @@ export default function Skill() {
         <div className="flex flex-grow lg:flex-col gap-10 justify-center mt-10 px-20">
           {/* Frontend */}
           {/* <h1 className="text-xl font-rubik col-span-6">_frontend</h1> */}
-          <div className=" pb-4 grid grid-cols-2 grid-flow-row max-sm:grid-flow-row max-sm:grid-cols-3 sm:grid-rows-2 sm:grid-cols-5 gap-10 lg:grid-cols-5 lg:gap-y-8 items-center justify-items-center  justify-center">
+          <div className=" pb-4 grid grid-cols-2 grid-flow-row sm:grid-rows-2 sm:grid-cols-5 gap-10 lg:grid-cols-5 lg:gap-y-8 items-center justify-items-center  justify-center">
             <SiJavascript className={`hover:text-yellow-500 ${iconsClass}`} />
             <SiTailwindcss className={`hover:text-cyan-500 ${iconsClass}`} />
             <SiHtml5 className={`hover:text-red-500 ${iconsClass}`} />
@@ -58,9 +58,7 @@ export default function Skill() {
             <SiVite className={`hover:text-yellow-300 ${iconsClass}`} />
             <SiTypescript className={`hover:text-blue-600 ${iconsClass}`} />
           </div>
-          <div>
-            
-          </div>
+          <div></div>
           {/* Backend */}
           {/* <div className="grid grid-cols-2 gap-3">
             <h1 className="col-span-2 text-xl">_backend</h1>
