@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #303036;
+  scroll-behavior: smooth;
+}
+
+/* Fluid typography */
+@layer base {
+  html {
+    font-size: clamp(14px, 1vw + 8px, 18px);
+  }
+}
+
+/* Smooth animations */
+.project-card {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.contact-icon {
+  @apply transition-transform duration-300 ease-in-out hover:scale-110;
+}
+
+/* Loading skeleton animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.skeleton {
+  @apply animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] bg-gray-200 rounded;
+}
